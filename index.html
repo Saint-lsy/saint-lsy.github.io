@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-RFR2GFKT75"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', 'G-RFR2GFKT75');
+  </script> -->
+  <!-- Google Tag Manager -->
+  <!-- <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  })(window,document,'script','dataLayer','GTM-NC38VTD');</script> -->
+  <!-- End Google Tag Manager -->
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- <meta http-equiv="refresh" content="0; URL=https://cs.stanford.edu/~leoyuan/"> -->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+  <!-- <meta name="google-site-verification" content="u_--0s_Uw50r4zCgRrzltkmFhNCduYOJwPGlKVTuNJU" /> -->
+
+  <title>Shengyuan Liu</title>
+  <meta name="description" lang="en" content="This is an academic website for Shengyuan Liu">
+  <meta name="keywords" lang="en" content="Shengyuan Liu, 刘圣圆" />
+  
+
+  <link rel="shortcut icon" href="images/icon/sy_logo.png">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <!-- <link rel="canonical" href="https://cs.stanford.edu/~leoyuan/"> -->
+  <!-- <link rel="alternate" type="application/rss+xml" title="Zeqing (Leo) Yuan" href="https://LeoYuan0111.github.io/feed.xml" /> -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="css/academicons.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
+
+
+  <script src="js/jquery-2.1.3.min.js"> </script>
+  <script>
+    // JavaScript function to generate a scrambled email address
+    function generateEmail() {
+        var name = "liushengyuan"; // Replace with your email username
+        var domain = "link.cuhk.edu.hk"; // Replace with your email domain
+        var email = name + "@" + domain;
+        document.getElementById("email").innerHTML = email;
+    }
+  </script>
+
+  <script type="text/javascript">
+    function ShowHide(divId, linkDivId) {
+        if(document.getElementById(divId).style.display == 'none') {
+            document.getElementById(divId).style.display='block';
+            document.getElementById(linkDivId).style.display='none'; // Hide the "read more" link
+        }
+        else {
+            document.getElementById(divId).style.display = 'none';
+        }
+    }
+  </script>
+
+  <style>
+    li.indented {
+        position: relative;
+        padding-left: 120px; 
+    }
+
+    li.indented::before {
+        content: attr(data-date);
+        position: absolute;
+        left: 0;
+        top: 0;
+        white-space: nowrap;
+    }
+
+    .wrapper {
+        text-align: left;
+        max-width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .publications {
+        max-width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .pub-list, .pub {
+        max-width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #profile-avatar {
+    width: 123px; /* icon宽度 */
+    height: 158px;
+}
+  </style>
+  
+</head>
+
+
+<body>
+
+    <!-- Google Tag Manager (noscript) -->
+<!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NC38VTD"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> -->
+<!-- End Google Tag Manager (noscript) -->
+
+  <header class="site-header">
+
+  <div class="wrapper">
+<nav class="site-nav">
+  <a href="#" class="menu-icon">
+    <svg viewBox="0 0 18 15">
+      <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+      <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+      <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+    </svg>
+  </a>
+
+  <div class="trigger">
+    <a class="page-link" href="#bio"><b>Biography</b></a>
+    <a class="page-link" href="#publications"><b>Publications</b></a>
+    <a class="page-link" href="#awards"><b>Honors</b></a>
+    <!-- <a class="page-link" href="#timeline"><b>Experiences</b></a> -->
+    <a class="page-link" href="#teaching"><b>Academic Service</b></a>
+    <a class="page-link" href="#misc"><b>Misc</b></a>
+    <!-- <a class="page-link" href="files/CV.pdf"><b>CV</b></a> -->
+    <!--<a class="page-link" href="#otherprojects">Projects</a>-->
+    <!-- Button for Posts -->
+  </div>
+</nav>
+  </div>
+</header>
+
+  <div id="profile-cover" class="cover shallow-bg img-responsive"> 
+    <div id="profile-namecard" class="profile-wrapper wrapper-light">
+      <div id="my-pic" class="profile-col profile-col-1">
+        <img id="profile-avatar" src="./images/self-portrait/me.jpg" alt="Me" class="circle-img border-dark"-/>
+      </div>
+      <div id="my-contact" class="profile-col profile-col-2">
+        <div id="my-name" class="text-grey-dark">
+          Shengyuan Liu<br>
+        </div>
+        <div id="my-title" class="text-grey">
+          PhD candidate @CUHK<br>
+          <!-- CS undergrad @ZJU 24' -->
+          <!-- Prev intern @Stanford 23' -->
+        </div>
+
+        <div class="social-media" style="white-space:nowrap;">
+          <a href="https://scholar.google.com/citations?user=zP6fRqcAAAAJ" class="icon-button github">
+          <i class="ai ai-google-scholar-square icon-github"></i>
+            <span></span>
+          </a>
+
+          <a href="https://www.linkedin.com/in/shengyuan-liu-467735271/" class="icon-button linkedin">
+            <i class="fa fa-linkedin icon-linkedin"></i>
+            <span></span>
+          </a>
+          
+          <a href="https://x.com/Yann_Saint1122" class="icon-button twitter">
+            <i class="fa fa-twitter icon-twitter"></i>
+            <span></span>
+          </a>
+         
+          <a href="https://github.com/Saint-lsy" class="icon-button github">
+            <i class="fa fa-github icon-github"></i>
+            <span></span>
+          </a>
+
+          <a href="liushengyuan@link.cuhk.edu.hk" class="icon-button github">
+            <i class="fa fa-envelope icon-github"></i>
+            <span></span>
+          </a>
+
+          <!-- <a href="https://www.xiaohongshu.com/user/你的小红书ID" class="icon-button xiaohongshu" style="display:inline-block;">
+            <img src="images/icon/xiaohongshu.png" alt="小红书" style="width:24px;height:24px;vertical-align:middle;">
+            <span></span>
+          </a> -->
+        </div>
+      </div>
+
+      <!-- <div id="my-desc" class="profile-col profile-col-2 hide">
+        <div id="my-desc-title">
+          Another me.
+        </div>
+        <div id="my-desc-content">
+        </div>
+      </div> -->
+    </div>
+  </div>
+  <!-- <script type="text/javascript">
+    function deepFeature()
+    {
+      $('#profile-avatar').attr('src', 'images/self-portrait/deep-me.jpg');
+      $('#profile-avatar').removeClass('border-dark');
+      $('#profile-avatar').addClass('border-bright');
+
+      $('#profile-cover').removeClass('shallow-bg');
+      $('#profile-cover').addClass('deep-bg');
+      
+      $('#profile-namecard').removeClass('wrapper-light');
+      $('#profile-namecard').addClass('wrapper-dark');
+      
+      $('#my-desc').removeClass('hide');
+      $('#my-contact').addClass('hide');    
+      // console.log('Move in now...');
+    }
+
+    function shallowFeature()
+    {
+      $('#profile-avatar').attr('src', 'images/self-portrait/me.jpg');
+      $('#profile-avatar').removeClass('border-bright');
+      $('#profile-avatar').addClass('border-dark');
+
+      $('#profile-cover').removeClass('deep-bg');
+      $('#profile-cover').addClass('shallow-bg');
+      
+      $('#profile-namecard').removeClass('wrapper-dark');
+      $('#profile-namecard').addClass('wrapper-light');
+      
+      $('#my-contact').removeClass('hide');
+      $('#my-desc').addClass('hide');
+      // console.log('Move out now...');
+    }
+
+    $(function() { 
+      $('#my-pic').hover(deepFeature, shallowFeature);
+    })
+
+  </script> -->
+
+<div class="page-content">
+<div class="wrapper">
+<div id="bio" class="bio">
+
+  <h1 class="md-heading text-left">
+    <i class="fa fa-id-card" aria-hidden="true"></i>
+    About
+  </h1>
+  <div class="bio-body" style="overflow:hidden;">
+    <p>
+      
+      Hi! I am a Year-2 PhD candidate at <a href="https://www.ee.cuhk.edu.hk/~yxyuan/">AIM group</a> of The Chinese University of Hong Kong, 
+      advised by Prof. <a href="https://www.ee.cuhk.edu.hk/~yxyuan/people/people.htm">Yixuan Yuan</a>.
+      I received my M.S. degree from <a href="http://english.ia.cas.cn/">Institue of Automation, Chinese Academy of Sciences (CASIA)</a>, where I am grateful to be advised by Prof.<a href="https://people.ucas.ac.cn/~shangwenting">Wenting Shang</a>, Prof.<a href="https://ia.cas.cn/rcdw/yxqnjj/202404/t20240422_7129855.html">Di Dong</a>, and Prof.<a href="https://scholar.google.com/citations?user=nDcusNQAAAAJ&hl=en">Jie Tian</a>.
+      Before that, I received my double Bachelor's degree in Information Engineering and Finance from <a href="https://en.xjtu.edu.cn/">Xi'an Jiaotong University (XJTU)</a>.
+    </p>
+    <p> 
+      My research interest lies in Generative Modeling and AI for Healthcare, especially multi-modality joint representation learning for medical vision-language Models and Agents.
+    </p>
+  </div>
+</div>
+
+<!-- 
+    <div style="width: 50%; float:left">
+      <h3>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <b>Research Topics</b>
+      </h3>
+      <b>Computer Vision</b>
+      <ul>
+        <li>3D Scene Understanding, Video Analysis, Image Editing</li>
+      </ul>
+
+      <b>Generative Models</b>
+      <ul>
+        <li>Diffusion Model, GAN, LLM</li>
+      </ul>
+                   
+    </div>
+
+    <div style="width: 50%; float:right">
+      <h3>
+        <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+        <b>Background</b>
+      </h3>
+      <b>Carnegie Mellon University</b>, 2024 - 2026<br>
+      <ul>
+        <li>M.S. in Robotics</li>
+      </ul>
+      <b>Zhejiang University</b>, 2020 - 2024<br>
+      <ul>
+        <li>B.E.(Honors) in Computer Science</li>
+        <li><a href="https://www.zju.edu.cn/english/2024/0318/c19573a2891858/page.psp">Highest Honor & Presidential Scholarship</a></li>
+      </ul>
+    </div> -->
+
+
+<!-- Image overlay container -->
+<div id="image-overlay" class="overlay">
+  <span class="close" onclick="closeOverlay()">&times;</span>
+  <img class="overlay-content" id="overlay-image" src="">
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+      document.querySelectorAll('.image-link').forEach(function(link) {
+          link.addEventListener('click', function(e) {
+              e.preventDefault();
+              var imgSrc = this.getAttribute('data-image');
+              document.getElementById('overlay-image').src = imgSrc;
+              document.getElementById('image-overlay').style.display = 'flex';
+          });
+      });
+  });
+
+  function closeOverlay() {
+      document.getElementById('image-overlay').style.display = 'none';
+  }
+</script>
+
+<div id="experience" class="bio">
+  <h1 class="md-heading text-left">
+    <i class="fa fa-briefcase" aria-hidden="true"></i>
+    Experience
+  </h1>
+  <div class="experience-list">
+    <div class="exp-item">
+      <div class="exp-logo" style="width:80px;height:80px;display:inline-block;vertical-align:middle;background:#f5f5f5;border-radius:8px;margin-right:60px;text-align:center;">
+        <img src="images/icon/cuhk.png" alt="CUHK" style="max-width:150%;max-height:100%;">
+      </div>
+      <div class="exp-info" style="display:inline-block;vertical-align:middle;">
+        <b>Ph.D. in Electronic Engineering</b><br>
+        The Chinese University of Hong Kong (CUHK), 2024.08 - Now<br>
+        Advisor: Prof. Yixuan Yuan
+      </div>
+    </div>
+    <div class="exp-item" style="margin-top:16px;">
+      <div class="exp-logo" style="width:80px;height:80px;display:inline-block;vertical-align:middle;background:#f5f5f5;border-radius:8px;margin-right:60px;text-align:center;">
+        <img src="images/icon/kuaishou.png" alt="Kuaishou" style="max-width:100%;max-height:100%;margin-left:20px;">
+      </div>
+      <div class="exp-info" style="display:inline-block;vertical-align:middle;">
+        <b>Research Intern</b><br>
+        Kuaishou Technology, 2023.08 - 2024.04<br>
+        Topics: Image and Video Generation
+      </div>
+    </div>
+    <div class="exp-item" style="margin-top:16px;">
+      <div class="exp-logo" style="width:80px;height:80px;;display:inline-block;vertical-align:middle;background:#f5f5f5;border-radius:8px;margin-right:60px;text-align:center;">
+        <img src="images/icon/ucas.png" alt="CASIA" style="max-width:100%;max-height:100%;margin-left:20px;">
+      </div>
+      <div class="exp-info" style="display:inline-block;vertical-align:middle;">
+        <b>M.S. in Pattern Recognition and Intelligent Systems</b><br>
+        The University of Chinese Academy of Sciences, 2021.08 - 2024.06<br>
+        Advisor: Prof. Wenting Shang, Di Dong, Jie Tian
+      </div>
+    </div>
+    <div class="exp-item" style="margin-top:16px;">
+      <div class="exp-logo" style="width:80px;height:80px;display:inline-block;vertical-align:middle;background:#f5f5f5;border-radius:8px;margin-right:60px;text-align:center;">
+        <img src="images/icon/xjtu.png" alt="XJTU" style="max-width:100%;max-height:100%;margin-left:20px;">
+      </div>
+      <div class="exp-info" style="display:inline-block;vertical-align:middle;">
+        <b>B.E. in Information Engineering & Finance</b><br>
+        Xi'an Jiaotong University (XJTU), 2017.08 - 2021.07<br>
+        GPA 3.89/4.3 (90.61/100, Top 5%)
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div id="publications" class="publications">
+  <h1 class="md-heading text-left">
+    <i class="fa fa-file" aria-hidden="true"></i>
+    Selected Publications
+  </h1>
+  <div class="footnote">(*: equal contribution)</div><br>
+  <div class="pub-list">
+
+    <div class="pub" data-selected="true">
+      <div class="pub-left">
+        <img class="intro-img frame" src="images/papers/endobench.png">
+      </div>
+      <div class="pub-right">
+        <div class="title">
+          EndoBench: A Comprehensive Evaluation of Multi-Modal Large Language Models for Endoscopy Analysis
+        </div>
+        <div class="authors">
+          <font style="font-size: 11pt;">
+            <b>Shengyuan Liu*</b>, Boyun Zheng*, Wenting Chen*, Zhihao Peng, Zhenfei Yin, Jing Shao, Jiancong Hu, Yixuan Yuan
+          </font>
+        </div>
+        <div class="publish">
+          <span class="publisher">Arxiv 2025</span>
+          <span class="place"></span>
+        </div>
+        <div class="tags">
+          [<a class="tag" href="https://cuhk-aim-group.github.io/EndoBench.github.io/" target="_blank">Homepage</a>]
+          [<a class="tag" href="https://arxiv.org/abs/2505.23601" target="_blank">Paper</a>]
+          [<a class="tag" href="https://github.com/CUHK-AIM-Group/EndoBench" target="_blank">Code</a>]
+          [<a class="tag" href="https://huggingface.co/datasets/Saint-lsy/EndoBench" target="_blank">Benchmark</a>]
+        </div>
+      </div>
+    </div>
+
+    <div class="pub" data-selected="true">
+      <div class="pub-left">
+        <img class="intro-img frame" src="images/papers/polypgen.jpg">
+      </div>
+      <div class="pub-right">
+        <div class="title">
+          Polyp-Gen: Realistic and Diverse Polyp Image Generation for Endoscopic Dataset Expansion
+        </div>
+        <div class="authors">
+          <font style="font-size: 11pt;">
+            <b>Shengyuan Liu*</b>, Zhen Chen*, Qiushi Yang, Weihao Yu, Jiancong Hu, Di Dong, Yixuan Yuan
+          </font>
+        </div>
+        <div class="publish">
+          <span class="publisher">ICRA 2025</span>
+          <span class="place"></span>
+        </div>
+        <div class="tags">
+          [<a class="tag" href="https://arxiv.org/pdf/2501.16679" target="_blank">Paper</a>]
+          [<a class="tag" href="https://github.com/CUHK-AIM-Group/Polyp-Gen" target="_blank">Code</a>]
+          [<a class="tag" href="https://huggingface.co/Saint-lsy/Polyp-Gen-sd2-inpainting" target="_blank">Model</a>]
+        </div>
+      </div>
+    </div>
+
+    <div class="pub" data-selected="true">
+      <div class="pub-left">
+        <img class="intro-img frame" src="images/papers/seag.jpg">
+      </div>
+      <div class="pub-right">
+        <div class="title">
+          Training-Free Subject-Enhanced Attention Guidance for Compositional Text-to-image Generation
+        </div>
+        <div class="authors">
+          <font style="font-size: 11pt;">
+            <b>Shengyuan Liu</b>, Bo Wang, Ye Ma, Te Yang, Quan Chen, Di Dong
+          </font>
+        </div>
+        <div class="publish">
+          <span class="publisher">Pattern Recognition (PR) 2025</span>
+          <span class="place"></span>
+        </div>
+        <div class="tags">
+          [<a class="tag" href="https://www.sciencedirect.com/science/article/abs/pii/S003132032500771X" target="_blank">Paper</a>]
+        </div>
+      </div>
+    </div>
+
+
+    <!-- <div class="pub">
+      <div class="pub-left">
+        <img class="intro-img frame" src="papers/tivee/TIVEE.png">
+      </div>
+      <div class="pub-right">
+        <div class="title" id="tivee">
+          TIVEE: Visual Exploration and Explanation of Badminton Tactics in Immersive Visualizations
+        </div>
+        <div class="desc">
+          <!-- TLDR; 3D visualization and VR interaction for immersive sports analysis -->
+        <!-- </div> -->
+        <!-- <div class="authors">
+          <font style="font-size: 11pt;">
+            <a class="author" href="https://sheaton1.github.io/"> Xiangtong Chu</a>,
+            <a class="author" href="https://ssxiexiao.github.io/"> Xiao Xie</a>,
+            <a class="author" href="">Shuainan Ye</a>,
+            <a class="author" href="">Haolin Lu</a>,
+            <a class="author" href="">Hongguang Xiao</a>,
+            Zeqing Yuan,
+            <a class="author" href="https://chenzhutian.org/">Zhutian Chen</a>,
+            <a class="author" href="http://www.ycwu.org/">Yingcai Wu</a>
+          </font>
+          </span>
+        </div>
+        <div class="publish">
+          <span class="publisher">IEEE TVCG (VIS 2021)</span>
+          <span class="place"></span>
+        </div>
+        <div class="tags">
+          [<a class="tag" href="https://zjuidg.org/source/projects/TIVEE/TIVEE.pdf"><strong>Paper</strong></a>]
+          [<a class="tag" href="https://ieeexplore.ieee.org/abstract/document/9557225"><strong>www</strong></a>]
+          [<a class="tag" href="https://www.youtube.com/watch?v=4j5CL5HamQQ"><strong>Video</strong></a>]
+          [<a class="tag" href="papers/tivee/tivee.bib"><b>BibTex</b></a>]
+        </div>
+      </div>
+    </div> -->
+
+    
+  </div>
+</div>
+
+
+<div class="wrapper">
+  <div id="awards" class="bio">
+    <h1 class="md-heading text-left">
+      <i class="fa fa-tasks" aria-hidden="true"></i>
+      Selected Honors
+    </h1>
+    <!-- <div class="scrollable-box"> -->
+    <ul>
+      <li>University of Chinese Academy of Sciences Merit Student, 2022, 2023</li>
+      <li>Top 10 Outstanding Undergraduates Award at Wenzhi College, XJTU, 2021</li>
+      <li>Xi'an Jiaotong University Outstanding Graduates, 2021</li>
+      <li>Xi'an Jiaotong University Excellent Student Cadre, 2020</li>
+      <li>Xi'an Jiaotong University Outstanding student, 2018,2019 </li>
+      <li>Chinese National Scholarship, 2018</li>
+      <!-- <ul>
+        <li>Awarded by Ministry of Education of China; <b>Top 0.2%</b>; <b>3 consecutive times</b></li>
+      </ul> -->
+      <!-- <ul>
+        <li><b>Highest scholarship</b> at Zhejiang University, awarded to <b>24 / 65,000+</b> students</li>
+      </ul> -->
+      
+      <!-- <ul>
+        <li><b>Highest student honor</b> at Zhejiang University, awarded to <b>10 / 65,000+</b> students</li>
+      </ul> -->
+      <!-- <ul>
+        <li>Awarded to <b>30 undergraduates in China</b> for AI-related research</li>
+      </ul> -->
+    </ul>
+    <!-- </div> -->
+  </div>
+</div>
+
+
+<div class="wrapper">
+  <div id="academicservices" class="bio">
+    <div class="bio-body" style="overflow:hidden;">
+      <h1 class="md-heading text-left">
+        <i class="fa fa-tasks" aria-hidden="true"></i>
+        Academic Services
+      </h1>  
+        <b>Reviewer:</b> TMI, MICCAI, TETCI, AIIM<br>
+        <!-- <b>Area Chair:</b> NeurIPS2023 GLFrontier<br>
+  <b>Organizer:</b> LoG2023 Montreal<br> -->
+    </div>
+  </div>
+</div>
+
+
+<div class="wrapper">
+  <div id="misc" class="bio">
+      <h1 class="md-heading text-left">
+        <i class="fa fa-id-card" aria-hidden="true"></i>
+        Miscellaneous
+      </h1>  
+      <div class="pub-list">
+        <div class="pub">
+          <p>I am a sports enthusiast and a die-hard fan of Leo Messi😍🔥. I spent 4 amazing years with the XJTU football team⚽, and I'm also passionate about basketball🏀, jogging🏃‍♂️, skiing🏂, hiking⛰️, swimming🏊‍♂️, and tennis🎾.</p>
+          <img class="intro-img frame" src="./images/self-portrait/shirt1.jpg" alt="Soccer 1" style="height:140px; width:120px; border-radius:8px;">
+          <img class="intro-img frame" src="./images/self-portrait/shirt2.jpg" alt="Soccer 2" style="height:140px; width:120px;border-radius:8px;">
+          <div class="pub-right">
+            <div class="desc">
+              <ul>
+                <li>🥇 XJTU Football Freshmen Cup Champion, 2017</li>
+                <li>🥇 XJTU Football Spring League Champion, 2021</li>
+                <li>🥇 Zhongguancun Football League Champion, Beijing, 2024</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script type="text/javascript" src="//rf.revolvermaps.com/0/0/8.js?i=5mz7hnrbg3y&amp;m=0&amp;c=ff0000&amp;cr1=ffffff&amp;f=arial&amp;l=33" async="async"></script>
+
+
+<footer class="site-footer">
+  <div class="wrapper">
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li>Personal Email:</li>
+          <li><a href="mailto:">liushengyuan [at] link.cuhk.edu.hk</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+          <a href="https://scholar.google.com/citations?user=zP6fRqcAAAAJ" class="icon-button github">
+          <i class="ai ai-google-scholar-square icon-github"></i>
+            <span></span>
+          </a>
+
+          <a href="https://www.linkedin.com/in/shengyuan-liu-467735271/" class="icon-button linkedin">
+            <i class="fa fa-linkedin icon-linkedin"></i>
+            <span></span>
+          </a>
+
+          <a href="https://x.com/Yann_Saint1122" class="icon-button twitter">
+            <i class="fa fa-twitter icon-twitter"></i>
+            <span></span>
+          </a>
+
+          <a href="https://github.com/Saint-lsy" class="icon-button github">
+            <i class="fa fa-github icon-github"></i>
+            <span></span>
+          </a>
+      </div>
+  <div class="footer-col footer-col-3">
+      <!--<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fwillhua127.github.io&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a> -->
+  <!-- <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?user=Lxe71v4AAAAJ&hl=en&url=https%3A%2F%2Fscholar.google.com%2Fcitations&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a> -->
+    <p class="text">Last updated: July, 2025.<br>The style of this website is borrowed from Jun Cen and Zeqing Yuan</a>.</p>
+  </div>
+  </div>
+  </div>
+
+</footer>
+    <div class="back-to-top">Top</div>
+
+
+<script type="text/javascript">
+jQuery(document).ready(function() {
+    var offset = 220;
+    var duration = 500;
+    jQuery(window).scroll(function() {
+        if (jQuery(this).scrollTop() > offset) {
+            jQuery('.back-to-top').fadeIn(duration);
+        } else {
+            jQuery('.back-to-top').fadeOut(duration);
+    
+        }
+    });
+    jQuery('.back-to-top').click(function(event) {
+        event.preventDefault();
+        jQuery('html, body').animate({scrollTop: 0}, duration);
+        return false;
+    })
+});
+</script>
+  </body>
+
+<!--
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-60071442-1', 'auto');
+  ga('send', 'pageview');
+</script>
+-->
+
+<!--<script src="custom-pub.js"></script>-->
+</html>
