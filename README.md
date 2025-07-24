@@ -1,3 +1,3 @@
-This is my personal website: https://leoyuan.site
+This is my personal website: Shengyuan Liu
 
-Style referenced from http://hexianghu.com/.
+Style referenced from https://leoyuan.site and https://cen-jun.com/.
