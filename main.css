@@ -2051,24 +2051,30 @@ div.paginate-container li:nth-last-child(2) a:after {
 
 .education-logo {
     display: flex;
-    flex: 0 0 64px;
+    flex: 0 0 56px;
     align-items: center;
     justify-content: center;
-    width: 64px;
-    height: 64px;
+    width: 56px;
+    height: 56px;
+    overflow: hidden;
     background: #f5f5f5;
     border-radius: 8px
 }
 
 .education-logo img {
-    max-width: 82%;
-    max-height: 82%;
+    display: block;
+    width: 44px;
+    height: 44px;
+    max-width: 44px;
+    max-height: 44px;
     object-fit: contain
 }
 
 .education-logo-cuhk img {
-    max-width: 118%;
-    max-height: 92%
+    width: 52px;
+    height: 38px;
+    max-width: 52px;
+    max-height: 38px
 }
 
 .education-info {
@@ -2084,9 +2090,23 @@ div.paginate-container li:nth-last-child(2) a:after {
     }
 
     .education-logo {
-        flex-basis: 56px;
-        width: 56px;
-        height: 56px
+        flex-basis: 50px;
+        width: 50px;
+        height: 50px
+    }
+
+    .education-logo img {
+        width: 40px;
+        height: 40px;
+        max-width: 40px;
+        max-height: 40px
+    }
+
+    .education-logo-cuhk img {
+        width: 46px;
+        height: 34px;
+        max-width: 46px;
+        max-height: 34px
     }
 
     .education-info {
