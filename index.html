@@ -256,13 +256,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       Hi! I am a Year-2 PhD student at <a href="https://www.ee.cuhk.edu.hk/~yxyuan/">AIM group</a> of The Chinese University of Hong Kong, 
       advised by Prof. <a href="https://www.ee.cuhk.edu.hk/~yxyuan/people/people.htm">Yixuan Yuan</a>.
       I received my M.S. degree from <a href="http://english.ia.cas.cn/">Institue of Automation, Chinese Academy of Sciences (CASIA)</a>, where I am grateful to be advised by Prof.<a href="https://people.ucas.ac.cn/~shangwenting">Wenting Shang</a>, Prof.<a href="https://ia.cas.cn/rcdw/yxqnjj/202404/t20240422_7129855.html">Di Dong</a>, and Prof.<a href="https://scholar.google.com/citations?user=nDcusNQAAAAJ&hl=en">Jie Tian</a>.
-      Before that, I received my double Bachelor's degree in Information Engineering and Finance from <a href="https://en.xjtu.edu.cn/">Xi'an Jiaotong University (XJTU)</a>.
+      Before that, I received my double Bachelor's degree in Information Engineering and Finance from <a href="https://en.xjtu.edu.cn/">Xi'an Jiaotong University (XJTU)</a>. I have been fortunate to collaborate with several leading organizations, including Microsoft Research, Tencent, Kuaishou, and Shanghai AI Laboratory.
     </p>
     <p> 
-      My research interest lies in Generative Modeling and AI for Healthcare, especially multi-modality joint representation learning for medical vision-language Models and Agents.
+      My research focuses on generative modeling and AI for healthcare, particularly joint multimodal representation learning for vision-language models and the development of agentic systems for real-world clinical workflows.
     </p>
     <p>
-      I'm always looking for related discussion and collaboration. If you are interested to chat with me, feel free to contact me ~
+      I'm always looking for related discussion and collaboration. If you are interested with my works, feel free to contact me.<br>
+
     </p>
   </div>
 </div>
@@ -376,16 +377,101 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 <div id="publications" class="publications">
-  <h1 class="md-heading text-left">
-    <i class="fa fa-file" aria-hidden="true"></i>
-    Selected Publications
-  </h1>
-  <div class="footnote">(*: equal contribution)</div><br>
+  <div class="publication-heading-row">
+    <h1 class="md-heading text-left">
+      <i class="fa fa-file" aria-hidden="true"></i>
+      Selected Publications
+    </h1>
+    <span class="footnote">(*: equal contribution)</span>
+  </div>
+  <div class="publication-filter-panel">
+    <span class="publication-filter-label">Topics</span>
+    <div class="publication-filters" role="group" aria-label="Filter publications by topic">
+      <button type="button" class="publication-filter is-active" data-filter="all" aria-pressed="true">All</button>
+      <button type="button" class="publication-filter" data-filter="agentic" aria-pressed="false">Agentic Systems</button>
+      <button type="button" class="publication-filter" data-filter="multimodal" aria-pressed="false">Multi-modal Understanding &amp; Generation</button>
+      <button type="button" class="publication-filter" data-filter="ai4health" aria-pressed="false">AI4Health</button>
+    </div>
+    <span class="publication-filter-status" aria-live="polite">9 publications</span>
+  </div>
   <div class="pub-list">
 
-    <div class="pub" data-selected="true">
+    <div class="pub" data-selected="true" data-topics="agentic ai4health">
       <div class="pub-left">
-        <img class="intro-img frame" src="images/papers/medsam-agent.jpg">
+        <img class="intro-img frame" src="images/papers/amid.jpg" alt="AMID framework overview" loading="lazy">
+      </div>
+      <div class="pub-right">
+        <div class="title">
+          AMID: Towards Autonomous and Auditable Medical Imaging Model Development
+        </div>
+        <div class="authors">
+          <font style="font-size: 11pt;">
+            <b>Shengyuan Liu*</b>, Jia-Xuan Jiang*, Boyun Zheng, Cheng Wang, Zipei Wang, Wentao Pan, Hongtao Wu, Houwen Peng, Yu Gu, Lichao Sun, Yixuan Yuan
+          </font>
+        </div>
+        <div class="publish">
+          <span class="publisher">arXiv 2026</span>
+          <span class="place"></span>
+        </div>
+        <div class="tags">
+          <a class="tag" href="https://arxiv.org/abs/2607.10522" target="_blank">Paper</a>
+          <a class="tag" href="https://github.com/CUHK-AIM-Group/AMID" target="_blank">Repo</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pub" data-selected="true" data-topics="agentic ai4health">
+      <div class="pub-left">
+        <img class="intro-img frame" src="images/papers/neuroclaw.jpg" alt="NeuroClaw framework overview" loading="lazy">
+      </div>
+      <div class="pub-right">
+        <div class="title">
+          NeuroClaw: Closed-Loop Agentic AI for Executable and Reproducible Neuroimaging Research
+        </div>
+        <div class="authors">
+          <font style="font-size: 11pt;">
+            Cheng Wang, Zhibin He, Zhihao Peng, <b>Shengyuan Liu</b>, Yufan Hu, Carl Yang, Lifang He, Lichao Sun, Xiang Li, Yixuan Yuan
+          </font>
+        </div>
+        <div class="publish">
+          <span class="publisher">arXiv 2026</span>
+          <span class="place"></span>
+        </div>
+        <div class="tags">
+          <a class="tag" href="https://cuhk-aim-group.github.io/NeuroClaw/" target="_blank">Homepage</a>
+          <a class="tag" href="https://arxiv.org/abs/2604.24696" target="_blank">Paper</a>
+          <a class="tag" href="https://github.com/CUHK-AIM-Group/NeuroClaw" target="_blank">Code</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pub" data-selected="true" data-topics="multimodal ai4health">
+      <div class="pub-left">
+        <img class="intro-img frame" src="images/papers/medpruner.jpg" alt="MedPruner framework overview" loading="lazy">
+      </div>
+      <div class="pub-right">
+        <div class="title">
+          MedPruner: Training-Free Hierarchical Token Pruning for Efficient 3D Medical Image Understanding in Vision-Language Models
+        </div>
+        <div class="authors">
+          <font style="font-size: 11pt;">
+            <b>Shengyuan Liu*</b>, Zanting Ye*, Yunrui Lin*, Chen Hu, Wanting Geng, Xu Han, Bulat Ibragimov, Yefeng Zheng, Yixuan Yuan
+          </font>
+        </div>
+        <div class="publish">
+          <span class="publisher">MICCAI 2026</span>
+          <span class="place"></span>
+        </div>
+        <div class="tags">
+          <a class="tag" href="https://arxiv.org/abs/2603.11625" target="_blank">Paper</a>
+          <a class="tag" href="https://github.com/Saint-lsy/MedPruner" target="_blank">Code</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pub" data-selected="true" data-topics="agentic ai4health">
+      <div class="pub-left">
+        <img class="intro-img frame" src="images/papers/medsam-agent.jpg" alt="MedSAM-Agent framework overview" loading="lazy">
       </div>
       <div class="pub-right">
         <div class="title">
@@ -397,19 +483,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </font>
         </div>
         <div class="publish">
-          <span class="publisher">Arxiv 2026</span>
+          <span class="publisher">arXiv 2026</span>
           <span class="place"></span>
         </div>
         <div class="tags">
-          [<a class="tag" href="https://arxiv.org/abs/2602.03320" target="_blank">Paper</a>]
-          [<a class="tag" href="https://github.com/CUHK-AIM-Group/MedSAM-Agent" target="_blank">Code</a>]
+          <a class="tag" href="https://arxiv.org/abs/2602.03320" target="_blank">Paper</a>
+          <a class="tag" href="https://github.com/CUHK-AIM-Group/MedSAM-Agent" target="_blank">Code</a>
         </div>
       </div>
     </div>
     
-    <div class="pub" data-selected="true">
+    <div class="pub" data-selected="true" data-topics="multimodal ai4health">
       <div class="pub-left">
-        <img class="intro-img frame" src="images/papers/omnibrainbench.jpg">
+        <img class="intro-img frame" src="images/papers/omnibrainbench.jpg" alt="OmniBrainBench overview" loading="lazy">
       </div>
       <div class="pub-right">
         <div class="title">
@@ -425,17 +511,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <span class="place"></span>
         </div>
         <div class="tags">
-          [<a class="tag" href="https://cuhk-aim-group.github.io/OmniBrainBench.github.io/" target="_blank">Homepage</a>]
-          [<a class="tag" href="https://arxiv.org/pdf/2511.00846" target="_blank">Paper</a>]
-          [<a class="tag" href="https://github.com/CUHK-AIM-Group/EndoBench" target="_blank">Code</a>]
-          [<a class="tag" href="https://huggingface.co/datasets/FrankPN/OmniBrainBench" target="_blank">Benchmark</a>]
+          <a class="tag" href="https://cuhk-aim-group.github.io/OmniBrainBench.github.io/" target="_blank">Homepage</a>
+          <a class="tag" href="https://arxiv.org/pdf/2511.00846" target="_blank">Paper</a>
+          <a class="tag" href="https://github.com/CUHK-AIM-Group/EndoBench" target="_blank">Code</a>
+          <a class="tag" href="https://huggingface.co/datasets/FrankPN/OmniBrainBench" target="_blank">Benchmark</a>
         </div>
       </div>
     </div>
 
-    <div class="pub" data-selected="true">
+    <div class="pub" data-selected="true" data-topics="ai4health">
       <div class="pub-left">
-        <img class="intro-img frame" src="images/papers/medical_reasoning.jpg">
+        <img class="intro-img frame" src="images/papers/medical_reasoning.jpg" alt="Medical reasoning survey overview" loading="lazy">
       </div>
       <div class="pub-right">
         <div class="title">
@@ -447,19 +533,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </font>
         </div>
         <div class="publish">
-          <span class="publisher">Review (Arxiv 2025)</span>
+          <span class="publisher">Review (arXiv 2025)</span>
           <span class="place"></span>
         </div>
         <div class="tags">
-          [<a class="tag" href="https://arxiv.org/pdf/2508.00669" target="_blank">Paper</a>]
-          [<a class="tag" href="https://github.com/zzma2/medical-llm-reasoning-survey" target="_blank">Repo</a>]
+          <a class="tag" href="https://arxiv.org/pdf/2508.00669" target="_blank">Paper</a>
+          <a class="tag" href="https://github.com/zzma2/medical-llm-reasoning-survey" target="_blank">Repo</a>
         </div>
       </div>
     </div>
 
-    <div class="pub" data-selected="true">
+    <div class="pub" data-selected="true" data-topics="multimodal ai4health">
       <div class="pub-left">
-        <img class="intro-img frame" src="images/papers/endobench.png">
+        <img class="intro-img frame" src="images/papers/endobench.png" alt="EndoBench overview" loading="lazy">
       </div>
       <div class="pub-right">
         <div class="title">
@@ -475,17 +561,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <span class="place"></span>
         </div>
         <div class="tags">
-          [<a class="tag" href="https://cuhk-aim-group.github.io/EndoBench.github.io/" target="_blank">Homepage</a>]
-          [<a class="tag" href="https://arxiv.org/abs/2505.23601" target="_blank">Paper</a>]
-          [<a class="tag" href="https://github.com/CUHK-AIM-Group/EndoBench" target="_blank">Code</a>]
-          [<a class="tag" href="https://huggingface.co/datasets/Saint-lsy/EndoBench" target="_blank">Benchmark</a>]
+          <a class="tag" href="https://cuhk-aim-group.github.io/EndoBench.github.io/" target="_blank">Homepage</a>
+          <a class="tag" href="https://arxiv.org/abs/2505.23601" target="_blank">Paper</a>
+          <a class="tag" href="https://github.com/CUHK-AIM-Group/EndoBench" target="_blank">Code</a>
+          <a class="tag" href="https://huggingface.co/datasets/Saint-lsy/EndoBench" target="_blank">Benchmark</a>
         </div>
       </div>
     </div>
 
-    <div class="pub" data-selected="true">
+    <div class="pub" data-selected="true" data-topics="multimodal ai4health">
       <div class="pub-left">
-        <img class="intro-img frame" src="images/papers/polypgen.jpg">
+        <img class="intro-img frame" src="images/papers/polypgen.jpg" alt="Polyp-Gen overview" loading="lazy">
       </div>
       <div class="pub-right">
         <div class="title">
@@ -501,41 +587,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <span class="place"></span>
         </div>
         <div class="tags">
-          [<a class="tag" href="https://arxiv.org/pdf/2501.16679" target="_blank">Paper</a>]
-          [<a class="tag" href="https://github.com/CUHK-AIM-Group/Polyp-Gen" target="_blank">Code</a>]
-          [<a class="tag" href="https://huggingface.co/Saint-lsy/Polyp-Gen-sd2-inpainting" target="_blank">Model</a>]
+          <a class="tag" href="https://arxiv.org/pdf/2501.16679" target="_blank">Paper</a>
+          <a class="tag" href="https://github.com/CUHK-AIM-Group/Polyp-Gen" target="_blank">Code</a>
+          <a class="tag" href="https://huggingface.co/Saint-lsy/Polyp-Gen-sd2-inpainting" target="_blank">Model</a>
         </div>
       </div>
     </div>
 
-    <div class="pub" data-selected="true">
+    <div class="pub" data-selected="true" data-topics="multimodal">
       <div class="pub-left">
-        <img class="intro-img frame" src="images/papers/TMSE.jpg">
-      </div>
-      <div class="pub-right">
-        <div class="title">
-          TMSE: Tri-Modal Survival Estimation with Context-aware Tissue Prototype and Attention-Entropy Interaction
-        </div>
-        <div class="authors">
-          <font style="font-size: 11pt;">
-            Ruofan Zhang, Mengjie Fang, <b>Shengyuan Liu</b>, Zipei Wang, Jie Tian, Di Dong
-          </font>
-        </div>
-        <div class="publish">
-          <span class="publisher">MICCAI 2025 (Early accept)</span>
-          <span class="place"></span>
-        </div>
-        <div class="tags">
-          [<a class="tag" href="https://papers.miccai.org/miccai-2025/0932-Paper2424.html" target="_blank">Paper</a>]
-          [<a class="tag" href="https://github.com/RuofanZhang8/TMSE" target="_blank">Code</a>]
-          [<a class="tag" href="https://github.com/RuofanZhang8/TMSE" target="_blank">Model</a>]
-        </div>
-      </div>
-    </div>
-
-    <div class="pub" data-selected="true">
-      <div class="pub-left">
-        <img class="intro-img frame" src="images/papers/seag.jpg">
+        <img class="intro-img frame" src="images/papers/seag.jpg" alt="Subject-enhanced attention guidance overview" loading="lazy">
       </div>
       <div class="pub-right">
         <div class="title">
@@ -551,7 +612,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <span class="place"></span>
         </div>
         <div class="tags">
-          [<a class="tag" href="https://www.sciencedirect.com/science/article/abs/pii/S003132032500771X" target="_blank">Paper</a>]
+          <a class="tag" href="https://www.sciencedirect.com/science/article/abs/pii/S003132032500771X" target="_blank">Paper</a>
         </div>
       </div>
     </div>
@@ -598,6 +659,44 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
 </div>
 
+<script>
+  (function() {
+    var section = document.getElementById('publications');
+    if (!section) return;
+
+    var buttons = section.querySelectorAll('.publication-filter');
+    var publications = section.querySelectorAll('.pub[data-topics]');
+    var status = section.querySelector('.publication-filter-status');
+
+    function applyPublicationFilter(filter) {
+      var visibleCount = 0;
+
+      publications.forEach(function(publication) {
+        var topics = publication.getAttribute('data-topics').split(/\s+/);
+        var isVisible = filter === 'all' || topics.indexOf(filter) !== -1;
+        publication.hidden = !isVisible;
+        if (isVisible) visibleCount += 1;
+      });
+
+      buttons.forEach(function(button) {
+        var isActive = button.getAttribute('data-filter') === filter;
+        button.classList.toggle('is-active', isActive);
+        button.setAttribute('aria-pressed', isActive ? 'true' : 'false');
+      });
+
+      if (status) {
+        status.textContent = visibleCount + (visibleCount === 1 ? ' publication' : ' publications');
+      }
+    }
+
+    buttons.forEach(function(button) {
+      button.addEventListener('click', function() {
+        applyPublicationFilter(button.getAttribute('data-filter'));
+      });
+    });
+  })();
+</script>
+
 
 <div class="wrapper">
   <div id="awards" class="bio">
@@ -607,6 +706,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </h1>
     <!-- <div class="scrollable-box"> -->
     <ul>
+      <li>Golden Reviewer Award, ICML 2026</li>
       <li>NeurIPS 2025 Scholar Award, San Diego, USA, 2025</li>
       <li>University of Chinese Academy of Sciences Merit Student, 2022, 2023</li>
       <li>Top 10 Outstanding Undergraduates Award at Wenzhi College, XJTU, 2021</li>
@@ -640,7 +740,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <i class="fa fa-tasks" aria-hidden="true"></i>
         Academic Services
       </h1>  
-        <b>Reviewer:</b> TMI, MICCAI, TETCI, AIIM, npj Precision Oncology, BMC Medical Imaging, Scientific Reports<br>
+        <b>Conference Reviewer:</b> ICML, NeurIPS, ACM MM, MICCAI<br>
+        <b>Journal Reviewer:</b> TMI, MedIA, TETCI, AIIM, npj Precision Oncology, BMC Medical Imaging, Scientific Reports<br>
         <!-- <b>Area Chair:</b> NeurIPS2023 GLFrontier<br>
   <b>Organizer:</b> LoG2023 Montreal<br> -->
     </div>
@@ -712,7 +813,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="footer-col footer-col-3">
       <!--<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fwillhua127.github.io&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a> -->
   <!-- <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?user=Lxe71v4AAAAJ&hl=en&url=https%3A%2F%2Fscholar.google.com%2Fcitations&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a> -->
-    <p class="text">Last updated: March, 2026.<br>The style of this website is borrowed from Jun Cen and Zeqing Yuan</a>.</p>
+    <p class="text">Last updated: July, 2026.<br>The style of this website is borrowed from Jun Cen and Zeqing Yuan</a>.</p>
   </div>
   </div>
   </div>
